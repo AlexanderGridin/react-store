@@ -15,7 +15,7 @@
   font-size: 16px;
   line-height: 1.1;
   text-transform: uppercase;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
   letter-spacing: 0.1em;
 }
