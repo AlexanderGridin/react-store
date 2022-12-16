@@ -1,9 +1,15 @@
-import './App.css';
+import Container from "../shared/components/container/Container";
+import Logo from "../shared/components/logo/Logo";
+import "./App.css";
 
-function App() {
+const App = (): JSX.Element => {
   return (
-		<h1 className='App-title'>Test app</h1>
+    <>
+      <Container>
+        <Logo />
+      </Container>
+    </>
   );
-}
+};
 
 export default App;
