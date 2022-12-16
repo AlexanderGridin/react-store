@@ -1,0 +1,7 @@
+.App-title {
+  color: var(--primary-color);
+  margin: 0;
+  text-align: center;
+  border: 1px solid var(--primary-color);
+  padding: 15px;
+}
