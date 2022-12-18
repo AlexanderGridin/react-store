@@ -1,0 +1,30 @@
+.ContactLink {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  transition: all var(--transition);
+  font-family: var(--font-family);
+  font-size: 15px;
+  line-height: 1.1;
+  position: relative;
+}
+
+.ContactLink:hover {
+  color: var(--primary-color);
+}
+
+.ContactLink::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  background-color: var(--primary-color);
+  width: 0;
+  transition: var(--transition);
+}
+
+.ContactLink:hover::after {
+  width: 100%;
+}
