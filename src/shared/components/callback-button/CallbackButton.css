@@ -1,0 +1,21 @@
+.CallbackButton {
+  font-size: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  padding: 6px;
+  transition: all 0.4s;
+}
+
+.CallbackButton:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.CallbackButton:hover .CallbackButton__icon path {
+  fill: #fff;
+}
+
+.CallbackButton__icon path {
+  transition: all 0.4s;
+}
