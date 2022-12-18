@@ -1,0 +1,40 @@
+.CartButton {
+  font-size: 0;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.CartButton__icon {
+  display: block;
+}
+
+.CartButton__icon path {
+  transition: all var(--transition);
+}
+
+.CartButton:hover .CartButton__icon path {
+  fill: var(--primary-color);
+}
+
+.CartButton__counter {
+  font-size: 9px;
+  font-family: var(--font-family);
+  line-height: 1.1;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  transition: all var(--transition);
+}
+
+.CartButton:hover .CartButton__counter {
+  background-color: var(--primary-color);
+}
